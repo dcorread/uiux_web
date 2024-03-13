@@ -1,0 +1,39 @@
+.custom-row {
+    display: flex;
+    border: 1px solid #bec8c8;
+    border-radius: 10px;
+    margin: 10px 0px;
+    background-color: #F4FBFA;    
+}
+
+.add-time {
+    width: 10%;
+    background-color: #eff5f4;
+    color: #00696B; /* Adjust the color to match your design */
+    padding: 16px 16px;
+    border-radius: 20px;
+    border: none; /* Adjust the border color to match your design */    
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px 5px gray; /* Adjust the shadow color to match your design */
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.avatar {
+    margin: 10px;
+    display: grid;
+    place-content: center;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;    
+    border-radius: 50%;
+    background-color: green;
+}

@@ -1,0 +1,85 @@
+<div class="container">
+  <mat-card style="background-color: #EFF5F4; margin-top: 100px; padding: 5% 10%;">
+    <mat-card-content>
+      <div class="row">
+        <h1>Add Time</h1>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="time-picker">
+            <div class="time-input">
+              <label for="hour">Hour</label>
+              <input type="text" id="hour" maxlength="2" placeholder="HH">
+            </div>
+            <span>:</span>
+            <div class="time-input">
+              <label for="minute">Minute</label>
+              <input type="text" id="minute" maxlength="2" placeholder="MM">
+            </div>
+            <div class="time-actions">
+              <button id="cancel">Cancel</button>
+              <button id="ok">OK</button>
+            </div>
+          </div>
+          <div class="row">
+            <form class="example-form">
+              <mat-form-field style="width: 100%; margin: 30px 0px;">
+                <mat-label>Tag</mat-label>
+                <input matInput placeholder="Tag">
+              </mat-form-field>
+            </form>
+          </div>
+          <div class="row">
+            <button class="save" style="color: white;" mat-button>Save</button>
+          </div>
+        </div>
+        <div class="col-6" style="display: flex; justify-content: center;">
+          <div class="date-picker-container">
+            <div class="selected-date">
+              <div class="date-display">
+                <span class="day-name">Mon,</span>
+                <span class="month-name">Aug</span>
+                <span class="day-number">17</span>
+                <button class="edit-date">✏️</button>
+              </div>
+            </div>
+            <div class="calendar">
+              <div class="month-select">
+                <button class="previous-month">‹</button>
+                <span class="month-year">August 2023</span>
+                <button class="next-month">›</button>
+              </div>
+              <div class="days-of-week">
+                <div>S</div>
+                <div>M</div>
+                <div>T</div>
+                <div>W</div>
+                <div>T</div>
+                <div>F</div>
+                <div>S</div>
+              </div>
+              <div class="date-grid">
+                <!-- Generate or populate these dynamically with JavaScript -->
+                <div class="date">1</div>
+                <div class="date">2</div>                
+                <div class="date">3</div>
+                <div class="date">4</div>
+                <!-- ... other days ... -->
+                <div class="date today">5</div>
+                <div class="date">6</div>
+                <div class="date">7</div>
+                <div class="date">8</div>
+                <div class="date">9</div>
+                <div class="date">10</div>
+                <!-- ... other days ... -->
+                <div class="date selected">17</div>
+                <!-- ... other days ... -->
+                <div class="date">31</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

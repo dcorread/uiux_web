@@ -1,0 +1,41 @@
+<div class="container">
+    <mat-card style="background-color: #EFF5F4; margin-top: 100px; padding: 10%;">
+        <mat-card-content>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="#" alt="" srcset="">
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <h2>Log In</h2>
+                            <p>Log In Into Your Account</p>
+                        </div>
+                        <div class="row">
+                            <form class="example-form">
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>User</mat-label>
+                                    <input matInput placeholder="User">
+                                </mat-form-field>                                            
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>Password</mat-label>
+                                    <input type="password" matInput placeholder="Password">
+                                </mat-form-field>
+                            </form>
+                        </div>
+                        <div class="row">
+                            <div style="display: flex;">
+                                <mat-checkbox></mat-checkbox>
+                                <span style="margin: auto 0;">Remember Me</span>
+                            </div>
+                        </div>
+                        <div class="row">                        
+                            <p style="text-align: right;">Forgot Password</p>
+                        </div>
+                        <button (click)="goHome()" style="color: white;" mat-button>Log In</button>
+                    </div>
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>
